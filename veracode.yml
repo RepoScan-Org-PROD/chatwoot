@@ -4,7 +4,7 @@ actions:
     bundle: 2.5.16
   veracode_static_scan:
     build:
-      runs_on: "['ubuntu-latest']"
+      runs_on: "['self-hosted','mounikakothuru-mac']"
       packager_image: veracode/scm-packaging:3.0.0
       #predependency_command: |
         
