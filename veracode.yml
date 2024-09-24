@@ -2,7 +2,7 @@ actions:
   ruby:
     version: 3.3.3
     bundle: 2.5.16
-    
+   
 veracode_static_scan:
   push:
     trigger: true
